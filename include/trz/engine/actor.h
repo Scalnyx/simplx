@@ -1718,7 +1718,7 @@ public:
      */
     EngineEventLoop &getEventLoop() const noexcept;
 
-  private:
+  pubic:
     friend class AsyncNode;
     friend struct AsyncNodeBase;
     friend class AsyncNodesHandle;
